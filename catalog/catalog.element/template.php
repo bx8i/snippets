@@ -1,4 +1,15 @@
 <?php
+/**
+ * Variables:
+ *
+ * @var $arParams array
+ * @var $itemIds array
+ * @var $price array
+ */
+
+    // php code
+
+    // if (!empty($arParams['LABEL_PROP_POSITION'])) {
     // php code
 ?>
     <div  id="<?=$itemIds['ID']?>" itemscope itemtype="http://schema.org/Product">
@@ -26,7 +37,7 @@
         </div>
     </div>
 
-<?  if ($haveOffers) {
+<?  // if ($haveOffers) {
     // php code
 ?>
     <script>
